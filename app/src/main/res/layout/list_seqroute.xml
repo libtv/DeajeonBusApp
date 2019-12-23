@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                android:background="#FF3399"
+                android:layout_marginLeft="24dp"
+                android:layout_width="3dp"
+                android:layout_height="50dp"/>
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+            <TextView
+                android:id="@+id/route_name"
+                android:padding="15dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:gravity="left"
+                android:width="300dp"
+                android:fontFamily="@font/nanum"
+                android:textColor="#000000"
+                android:text="충남대학교 서문"/>
+            <TextView
+                android:id="@+id/car_name"
+                android:layout_marginTop="7dp"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:gravity="left"
+                android:textSize="10dp"
+                android:width="300dp"
+                android:fontFamily="@font/nanum"
+                android:textColor="#000000"
+                android:text=""/>
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/reset_list"
+        android:title="Refresh After 15"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/checkout_favorite"
+        android:title="Search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_info"
+        android:title="Bus Infomation"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버스 이름 : " />
+    <EditText
+        android:id="@+id/alarm_ROUTE_NO"
+        android:layout_width="match_parent"
+        android:enabled="false"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="역 ID : " />
+    <EditText
+        android:id="@+id/alarm_BUS_NODE_ID"
+        android:layout_width="match_parent"
+        android:enabled="false"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버스 ID: " />
+    <EditText
+        android:id="@+id/alarm_ROUTE_CD"
+        android:layout_width="match_parent"
+        android:enabled="false"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="배차 시간: " />
+    <EditText
+        android:id="@+id/alarm_bustime"
+        android:layout_width="match_parent"
+        android:enabled="false"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알람 시간: " />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="알람은 지정시간 - 배차시간으로부터 계산후" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:text="버스 도착 예정시간으로부터 5분전에 알림이 울립니다." />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"/>
+
+</LinearLayout>

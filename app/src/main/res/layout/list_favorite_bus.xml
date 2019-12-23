@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ImageVIew"
+                android:src="@color/colorAccent"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorAccent"/>
+            <TextView
+                android:id="@+id/favorite_ROUTE_NO"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/nanum"
+                android:width="70dp"
+                android:layout_marginLeft="50dp"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:text="612" />
+            <View
+                android:layout_width="160px"
+                android:layout_height="3px"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="38dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/favorite_START_NODE_ID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="1dp"
+                android:width="300dp"
+                android:fontFamily="@font/nanum"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="기점 : "
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="450px"
+                android:layout_height="2px"
+                android:background="@color/colorGray_0"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="127dp"/>
+            <TextView
+                android:id="@+id/favorite_END_NODE_ID"
+                android:padding="5dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginLeft="120dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:width="300dp"
+                android:fontFamily="@font/nanum"
+                android:textColor="#000000"
+                android:text="종점 : "/>
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>

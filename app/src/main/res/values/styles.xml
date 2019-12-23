@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorGray_0</item>
+        <item name="colorPrimaryDark">@color/colorGray</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/nanumTextButton</item>
+        <item name="android:textViewStyle">@style/nanumTextView</item>
+    </style>
+    <style name="nanumTextView" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/nanum</item>
+    </style>
+    <style name="nanumTextButton" parent="android:Widget.Button">
+        <item name="android:fontFamily">@font/nanum</item>
+    </style>
+</resources>

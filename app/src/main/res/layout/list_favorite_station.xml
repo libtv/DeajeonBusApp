@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ImageVIew"
+                android:src="@color/colorAccent"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="10dp"
+                android:layout_marginLeft="20dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/favorite_BUSSTOP_NM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="9dp"
+                android:width="120dp"
+                android:fontFamily="@font/nanum"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="정류소 명"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="200px"
+                android:layout_height="3px"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="38dp"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/favorite_BUSSTOP__NM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="1dp"
+                android:fontFamily="@font/nanum"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="정류소 명 : "
+                android:textColor="#000000" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/colorGray_0"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="187dp"/>
+
+            <TextView
+                android:id="@+id/favorite_BUSSTOP_ENG_NM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="185dp"
+                android:layout_marginTop="23dp"
+                android:fontFamily="@font/nanum"
+                android:gravity="left"
+                android:padding="5dp"
+                android:text="영어 정류장 명 : "
+                android:textColor="#000000" />
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>

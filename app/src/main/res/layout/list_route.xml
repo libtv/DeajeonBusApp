@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/route_busstop_nm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:fontFamily="@font/nanum"
+            android:padding="10dp"
+            android:width="150dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="충남대학교 서문" />
+        <TextView
+            android:id="@+id/route_route_no"
+            android:padding="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:width="300dp"
+            android:fontFamily="@font/nanum"
+            android:textColor="#000000"
+            android:text="충남대학교 서문"/>
+    </LinearLayout>
+</LinearLayout>
